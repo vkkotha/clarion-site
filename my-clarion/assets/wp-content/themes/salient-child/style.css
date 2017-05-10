@@ -1,0 +1,280 @@
+/*
+
+Theme Name: Salient Child Theme
+
+Theme URI: http: //mysite.com/
+
+Description: This is a custom child theme for Salient
+
+Author: My Name
+
+Author URI: http: //mysite.com/
+
+Template: salient
+
+Version: 0.1
+
+*/
+
+
+
+
+
+.hdr-phone {
+    font-size: 18px !important;
+    color: #fff;
+    font-weight: 500 !important;
+    float: right;
+    margin-right: 13px;
+    font-family: playfair display !important;
+    margin-top: 31px;
+    margin-bottom: 10px;
+}
+
+
+
+#header-outer[data-lhe="default"] header#top nav > ul > li > a {
+
+    padding-top: 1px !important;
+
+}
+
+
+
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+
+    margin-bottom: 0px!important;
+
+}
+
+
+
+.bordr-botm {
+    border-bottom: 5px solid #be2025 !important;
+}
+
+	
+
+.fulwidimgggg{
+
+	width:100% !important
+
+	}
+
+	
+
+.h2hh h4{
+
+	color:#0050a5 !important;
+
+	}
+
+	
+
+.ppp p{
+
+	font-size:14px !important;
+
+	}
+
+	
+
+.h4hh h2{
+
+	font-size:35px !important;
+
+	}
+
+	
+
+.nectar-fancy-ul[data-animation="true"] ul li {
+
+    margin-bottom: 0px !important;
+
+}
+
+
+
+.hww h2{
+
+	color:#fff !important;
+
+	}
+
+	
+
+.h5hh h5{
+
+	color:#fff !important;
+
+	}
+
+	
+
+.iwithtext .iwt-icon img {
+
+    width: 19px !important;
+
+}
+
+
+
+.iwithtext .iwt-text {
+
+    padding-left: 42px !important;
+
+}
+
+
+
+.con1 {
+
+    background: url('/assets/wp-content/uploads/2017/05/form-1.png') no-repeat left center !important;
+
+    padding: 13px 13px 11px 61px!important;
+
+}
+
+
+
+.con2 {
+
+    background: url('/assets/wp-content/uploads/2017/05/form-2.png') no-repeat left center !important;
+
+    padding: 13px 13px 11px 61px!important;
+
+}
+
+
+
+.con3 {
+
+    background: url('/assets/wp-content/uploads/2017/05/form-3.png') no-repeat left center !important;
+
+    padding: 13px 13px 11px 61px!important;
+
+}
+
+
+
+.con4 {
+
+    background: url('/assets/wp-content/uploads/2017/05/form-4.png') no-repeat left center !important;
+
+    padding: 13px 13px 11px 61px!important;
+
+}
+
+
+
+.con5 {
+
+    background: url('/assets/wp-content/uploads/2017/05/form-4.png') no-repeat left top !important;
+
+    padding: 13px 13px 11px 61px!important;
+
+    background-position: 0px 11px !important;
+
+}
+
+
+
+.con6 {
+
+	width:100% !important;
+
+	background: #be2025 !important;
+
+    font-size: 25px !important;
+
+    font-family: playfair display !important;
+	
+	    text-transform: uppercase !important;
+
+	}
+
+
+
+textarea {
+
+    height: 150px !important;
+
+}
+
+
+
+.viewallbuttn a {
+    background: #fff;
+    color: #be2025;
+    padding: 13px 46px;
+    font-size: 18px !important;
+    font-family: playfair display !important;
+    font-weight: bold;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.viewallbuttn {
+    margin-top: 41px;
+    margin-bottom: 90px !important;
+}
+
+
+@media (min-width:1000px) {}
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.hdr-phone {
+
+		display:none !important;
+
+		}
+
+	 }
+
+
+
+@media (max-width: 767px) {
+
+	.hdr-phone {
+
+		display:none !important;
+
+		}
+	
+	.swiper-slide[data-x-pos="centered"] .content {
+    margin-top: 15px !important;
+}
+
+body .nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .button.transparent a, body .nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .button.transparent_2 a {
+    padding: 3px 3px 0px 12px!important;
+}
+
+	 }
+
+
+
+@media (max-width: 480px) {
+
+	.hdr-phone {
+
+		display:none !important;
+
+		} 
+		
+	.swiper-slide[data-x-pos="centered"] .content {
+    margin-top: 15px !important;
+}
+
+body .nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .button.transparent a, body .nectar-slider-wrap[data-fullscreen="false"] .swiper-slide .button.transparent_2 a {
+    padding: 3px 3px 0px 12px!important;
+}
+
+}
+
+
+
+
+

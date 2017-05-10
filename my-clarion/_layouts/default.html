@@ -3,15 +3,38 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="home page-template-default page page-id-28 ascend wpb-js-composer js-comp-ver-4.12.1 vc_responsive" data-footer-reveal="false" data-header-format="default" data-footer-reveal-shadow="none" data-dropdown-style="classic" data-cae="easeOutCubic" data-cad="650" data-aie="none" data-ls="pretty_photo" data-apte="standard" data-hhun="0" data-fancy-form-rcs="default" data-form-style="default" data-form-submit="default" data-is="minimal" data-button-style="default" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true" data-ajax-transitions="true" data-full-width-header="false" data-slide-out-widget-area="true" data-slide-out-widget-area-style="slide-out-from-right" data-user-set-ocm="off" data-loading-animation="none" data-bg-header="true" data-ext-responsive="true" data-header-resize="1" data-header-color="custom"  data-smooth-scrolling="0" data-permanent-transparent="false" data-responsive="1" >
 
     {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    <!--<div id="ajax-content-wrap">-->
+
+      {{ content }}
+
+      <div id="footer-outer" data-midnight="light" data-full-width="false" data-using-widget-area="false">
+        
+          <div class="row" id="copyright">
+            
+            <div class="container">
+              
+              <div class="col span_5">
+                <p>©2017 ClarionAV. All rights reserved.. </p>  
+              </div><!--/span_5-->
+              
+              <div class="col span_7 col_last">
+                <ul id="social">
+                   <li><a target="_blank" href="http://www.faceboo.com/clarionav"><i class="fa fa-facebook"></i> </a></li>
+                   <li><a target="_blank" href="https://plus.google.com/u/0/b/104344235689116118043/104344235689116118043/about"><i class="fa fa-google-plus"></i> </a></li> 
+                </ul>
+              </div><!--/span_7-->
+            
+            </div><!--/container-->
+            
+          </div><!--/row-->
+          
+      </div><!--/footer-outer-->
+
+    <!--</div>--> <!--/ajax-content-wrap-->
 
     {% include footer.html %}
 

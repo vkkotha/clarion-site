@@ -1,14 +1,20 @@
 ---
 layout: default
 ---
-<article class="post">
+<div id="page-header-wrap" data-animate-in-effect="none" data-midnight="light" class="" style="height: 450px;">	    
+	<div class=" "  data-animate-in-effect="none" id="page-header-bg" data-midnight="light" data-text-effect="none" data-bg-pos="top" data-alignment="left" data-alignment-v="middle" data-parallax="0" data-height="450" style="background-color: #000;  height: 450px;">			
+		<div class="page-header-bg-image" style="background-image: url(/assets/wp-content/uploads/2017/05/slider-1.jpg);"></div> 
+		<div class="container">
+			<div class="row">
+				<div class="col span_6">
+					<div class="inner-wrap">
+						<h1></h1>
+						<span class="subheader"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+{{ content }}
