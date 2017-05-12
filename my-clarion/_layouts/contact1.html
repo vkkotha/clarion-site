@@ -24,9 +24,6 @@ layout: page
 
 		</div>
 	</div>
----
-layout: page
----
 <div class="divider-wrap"><div style="margin-top: 7px; width: 60px; height: 4px; margin-bottom: 7px;" data-width="60" data-animate="" data-animation-delay="" data-color="extra-color-3" class="divider-small-border"></div></div><div class="divider-wrap"><div style="height: 30px;" class="divider"></div></div>
 		</div> 
 	</div>
@@ -38,7 +35,7 @@ layout: page
 		<div class="wpb_wrapper">
 			<div role="form" class="wpcf7" id="wpcf7-f4-p143-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form class="wpcf7-form" novalidate="novalidate" id="contact-form">
+<form action="" method="post" class="wpcf7-form" novalidate="novalidate">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="4" />
 <input type="hidden" name="_wpcf7_version" value="4.7" />
@@ -46,12 +43,13 @@ layout: page
 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f4-p143-o1" />
 <input type="hidden" name="_wpnonce" value="de47fe1524" />
 </div>
-<p><span class="wpcf7-form-control-wrap"><input type="text" id="name" name="name" required value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required con1" aria-required="true" aria-invalid="false" placeholder="Name:" /></span></p>
+<p><span class="wpcf7-form-control-wrap"><input type="text" id="name" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required con1" aria-required="true" aria-invalid="false" placeholder="Name:" /></span></p>
 <p><span class="wpcf7-form-control-wrap"><input type="tel" id="phone" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel con2" aria-required="true" aria-invalid="false" placeholder="Phone:" /></span></p>
 <p><span class="wpcf7-form-control-wrap"><input type="email" id="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email con3" aria-required="true" aria-invalid="false" placeholder="Email:" /></span></p>
 <p><span class="wpcf7-form-control-wrap"><textarea id="message" name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea con5" aria-invalid="false" placeholder="Message:"></textarea></span></p>
-<p><input value="Submit" type="submit" class="g-recaptcha btn btn-primary wpcf7-form-control wpcf7-submit con6" data-sitekey="6Ldjfx8UAAAAAMSTuKpB5GpXeEE74JKq7a52tG4w" data-callback="onSubmitContactForm"/></p>
-<div id="validation-messages"></div></form></div>
+<p><button class="wpcf7-response-output wpcf7-display-none g-recaptcha" data-sitekey="6Ldjfx8UAAAAAMSTuKpB5GpXeEE74JKq7a52tG4w" data-callback="onSubmitContactForm">Submit</button></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+This is the response after submit.
 		</div> 
 	</div>
 	</div> 
