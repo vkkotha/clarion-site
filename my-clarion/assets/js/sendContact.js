@@ -1,7 +1,6 @@
 var sendContact = ( function($) {
   'use strict';
  
-  console.log("Loading sendContact.js");
   var URL = 'https://od3wrrb5ne.execute-api.us-east-1.amazonaws.com/prod/siteContact'
   const GENERIC_FAILURE_MESSAGE = 'Sorry, We can not process your request at this time. Please resubmit at a later time.';
 
